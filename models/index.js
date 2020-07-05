@@ -4,6 +4,7 @@ const dbConfig = require("../config/db");
 
 const UserModel = require('./user');
 const PlayerModel = require('./player');
+const PlayerMetaModel = require('./playerMeta');
 
 const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
   host: dbConfig.HOST,
@@ -21,6 +22,9 @@ const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
 
 const User = UserModel(sequelize,Sequelize);
 const Player = PlayerModel(sequelize,Sequelize);
+const PlayerMeta = PlayerMetaModel(sequelize,Sequelize);
+
+PlayerMeta.belongsTo(Player,{foreignKey:'playerId',as:'players'})
 
 
     
@@ -39,4 +43,5 @@ console.error('Unable to connect to the database:', err); });
 module.exports={
     User,
     Player,
+    PlayerMeta,
 }
