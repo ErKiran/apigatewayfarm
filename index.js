@@ -13,12 +13,13 @@ app.all('*',(req,res,next)=>{
     const ip = req.header('x-forwarded-for') || req.connection.remoteAddress;
     logger.log({
         level: 'info',
-        message: `Method: ${req.method}, URL: ${req.url} IP: ${ip}, User: ${req.user.userId}`
+        label:'API Handler',
+        message: `Method: ${req.method}, URL: ${req.url} IP: ${ip},`
     })
     next()
 })
 
-app.use('/',require('./api/routes'))
+app.use('/api/v1',require('./api/routes'))
 
 const port = process.env.PORT || 5000;
 

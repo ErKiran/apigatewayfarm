@@ -88,3 +88,30 @@
 2020-07-05T09:09:10.439Z [Init] info: Server is listening on the port 3000
 2020-07-05T09:09:17.035Z [Init] info: Server is listening on the port 3000
 2020-07-05T09:09:52.738Z [Init] info: Server is listening on the port 3000
+2020-07-05T09:15:53.100Z [Init] info: Server is listening on the port 3000
+2020-07-05T09:17:13.722Z [Init] info: Server is listening on the port 3000
+2020-07-05T09:17:19.816Z [undefined] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-05T09:18:34.226Z [undefined] info: Method: POST, URL: /api/v1/users IP: ::1,
+2020-07-05T09:19:05.220Z [Init] info: Server is listening on the port 3000
+2020-07-05T09:19:07.835Z [API Handler] info: Method: POST, URL: /api/v1/users IP: ::1,
+2020-07-05T09:19:56.561Z [Init] info: Server is listening on the port 3000
+2020-07-05T09:20:04.759Z [Init] info: Server is listening on the port 3000
+2020-07-05T09:20:08.730Z [API Handler] info: Method: POST, URL: /api/v1/users IP: ::1,
+2020-07-05T09:20:14.361Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-05T09:20:54.400Z [Init] info: Server is listening on the port 3000
+2020-07-05T09:21:25.053Z [Init] info: Server is listening on the port 3000
+2020-07-05T09:21:27.699Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-05T09:27:45.699Z [Init] info: Server is listening on the port 3000
+2020-07-05T09:28:32.996Z [Init] info: Server is listening on the port 3000
+2020-07-05T09:28:50.928Z [Init] info: Server is listening on the port 3000
+2020-07-05T09:29:18.163Z [Init] info: Server is listening on the port 3000
+2020-07-05T09:29:21.683Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-05T09:30:31.246Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-05T09:37:29.858Z [Init] info: Server is listening on the port 3000
+2020-07-05T09:38:18.315Z [Init] info: Server is listening on the port 3000
+2020-07-05T09:38:26.745Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-05T10:03:38.809Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:03:44.198Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-05T10:04:50.384Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:04:54.820Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-05T10:06:06.762Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
