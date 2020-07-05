@@ -3,6 +3,7 @@ const Sequelize = require("sequelize");
 const dbConfig = require("../config/db");
 
 const UserModel = require('./user');
+const PlayerModel = require('./player');
 
 const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
   host: dbConfig.HOST,
@@ -18,12 +19,13 @@ const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
 });
 
 
-const User = UserModel(sequelize,Sequelize)
+const User = UserModel(sequelize,Sequelize);
+const Player = PlayerModel(sequelize,Sequelize);
 
 
     
 sequelize.sync({
- logging: console.log,
+ logging: false,
  });
     
 sequelize
@@ -36,4 +38,5 @@ console.error('Unable to connect to the database:', err); });
 
 module.exports={
     User,
+    Player,
 }
