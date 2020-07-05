@@ -1,0 +1,10 @@
+2020-07-05T10:28:17.607Z [api] error: Can't login User Error: WHERE parameter "user_name" has invalid "undefined" value
+2020-07-05T10:28:37.037Z [api] error: Can't login User Error: WHERE parameter "user_name" has invalid "undefined" value
+2020-07-05T11:10:16.581Z [api] error: Can't login User TypeError: user.validPassword is not a function
+2020-07-05T11:13:39.032Z [api] error: Can't login User Error: Illegal arguments: undefined, string
+2020-07-05T11:16:39.288Z [api] error: Can't login User Error: Illegal arguments: undefined, string
+2020-07-05T11:17:03.133Z [api] error: Can't login User Error: Illegal arguments: undefined, string
+2020-07-05T11:18:11.480Z [api] error: Can't login User Error: Illegal arguments: string, undefined
+2020-07-05T13:35:10.137Z [api] error: Can't login User Error: Illegal arguments: string, undefined
+2020-07-05T13:36:59.466Z [api] error: Can't login User Error: Illegal arguments: string, undefined
+2020-07-05T14:39:12.873Z [api] error: Can't login User ReferenceError: role is not defined

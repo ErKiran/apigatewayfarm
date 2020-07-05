@@ -1,13 +1,19 @@
 /* eslint-disable no-undef */
-const express = require('express')
+const express = require('express');
+const passport = require('passport');
 require('dotenv').config();
 const logger = require('./logger');
+
+require('./utils/passportHelper')(passport)
 
 
 const app = express();
 
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
+
+app.use(passport.initialize());
+
 
 app.all('*',(req,res,next)=>{
     const ip = req.header('x-forwarded-for') || req.connection.remoteAddress;

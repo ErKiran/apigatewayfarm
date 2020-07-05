@@ -115,3 +115,104 @@
 2020-07-05T10:04:50.384Z [Init] info: Server is listening on the port 3000
 2020-07-05T10:04:54.820Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
 2020-07-05T10:06:06.762Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-05T10:26:43.830Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:27:31.761Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T10:28:14.539Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:28:17.601Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T10:28:17.607Z [api] error: Can't login User Error: WHERE parameter "user_name" has invalid "undefined" value
+2020-07-05T10:28:34.828Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:28:37.027Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T10:28:37.037Z [api] error: Can't login User Error: WHERE parameter "user_name" has invalid "undefined" value
+2020-07-05T10:35:59.119Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:36:36.147Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:42:48.646Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:42:56.135Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:43:28.144Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:44:24.886Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:44:32.696Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T10:46:05.381Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:46:14.997Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:46:18.751Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T10:46:47.310Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:46:51.968Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:46:55.475Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T10:47:07.593Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:47:11.089Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T10:48:33.374Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:48:49.166Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:48:52.678Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T10:48:57.017Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T10:48:58.075Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T10:49:35.725Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:49:45.077Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:49:50.631Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:49:55.869Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T10:49:57.501Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T10:50:40.569Z [Init] info: Server is listening on the port 3000
+2020-07-05T10:51:01.230Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T10:51:33.536Z [Init] info: Server is listening on the port 3000
+2020-07-05T11:10:01.208Z [Init] info: Server is listening on the port 3000
+2020-07-05T11:10:16.566Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T11:10:16.581Z [api] error: Can't login User TypeError: user.validPassword is not a function
+2020-07-05T11:12:01.527Z [Init] info: Server is listening on the port 3000
+2020-07-05T11:12:20.874Z [Init] info: Server is listening on the port 3000
+2020-07-05T11:13:18.040Z [Init] info: Server is listening on the port 3000
+2020-07-05T11:13:26.182Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T11:13:35.953Z [Init] info: Server is listening on the port 3000
+2020-07-05T11:13:39.022Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T11:13:39.032Z [api] error: Can't login User Error: Illegal arguments: undefined, string
+2020-07-05T11:16:35.395Z [Init] info: Server is listening on the port 3000
+2020-07-05T11:16:39.275Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T11:16:39.288Z [api] error: Can't login User Error: Illegal arguments: undefined, string
+2020-07-05T11:17:01.403Z [Init] info: Server is listening on the port 3000
+2020-07-05T11:17:03.123Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T11:17:03.133Z [api] error: Can't login User Error: Illegal arguments: undefined, string
+2020-07-05T11:18:06.990Z [Init] info: Server is listening on the port 3000
+2020-07-05T11:18:11.472Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T11:18:11.480Z [api] error: Can't login User Error: Illegal arguments: string, undefined
+2020-07-05T13:34:56.999Z [Init] info: Server is listening on the port 3000
+2020-07-05T13:35:04.226Z [Init] info: Server is listening on the port 3000
+2020-07-05T13:35:10.129Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T13:35:10.137Z [api] error: Can't login User Error: Illegal arguments: string, undefined
+2020-07-05T13:35:30.916Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T13:36:13.293Z [Init] info: Server is listening on the port 3000
+2020-07-05T13:36:18.340Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T13:36:59.458Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T13:36:59.466Z [api] error: Can't login User Error: Illegal arguments: string, undefined
+2020-07-05T13:37:06.880Z [Init] info: Server is listening on the port 3000
+2020-07-05T13:37:09.473Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T13:37:14.588Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T13:37:19.474Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T13:37:24.016Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T13:37:53.367Z [Init] info: Server is listening on the port 3000
+2020-07-05T13:37:56.101Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T13:38:39.463Z [Init] info: Server is listening on the port 3000
+2020-07-05T13:38:42.642Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T13:48:12.077Z [Init] info: Server is listening on the port 3000
+2020-07-05T13:59:42.743Z [Init] info: Server is listening on the port 3000
+2020-07-05T14:33:34.135Z [Init] info: Server is listening on the port 3000
+2020-07-05T14:33:48.864Z [Init] info: Server is listening on the port 3000
+2020-07-05T14:33:52.463Z [Init] info: Server is listening on the port 3000
+2020-07-05T14:34:27.119Z [Init] info: Server is listening on the port 3000
+2020-07-05T14:35:11.522Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T14:35:25.879Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T14:35:50.469Z [Init] info: Server is listening on the port 3000
+2020-07-05T14:35:52.724Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T14:36:14.492Z [Init] info: Server is listening on the port 3000
+2020-07-05T14:39:10.353Z [Init] info: Server is listening on the port 3000
+2020-07-05T14:39:12.765Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T14:39:12.873Z [api] error: Can't login User ReferenceError: role is not defined
+2020-07-05T14:39:37.116Z [Init] info: Server is listening on the port 3000
+2020-07-05T14:39:41.219Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T14:51:01.229Z [Init] info: Server is listening on the port 3000
+2020-07-05T14:51:03.418Z [Init] info: Server is listening on the port 3000
+2020-07-05T14:51:55.136Z [Init] info: Server is listening on the port 3000
+2020-07-05T14:58:12.576Z [Init] info: Server is listening on the port 3000
+2020-07-05T14:58:45.304Z [Init] info: Server is listening on the port 3000
+2020-07-05T15:00:03.616Z [Init] info: Server is listening on the port 3000
+2020-07-05T15:00:12.630Z [Init] info: Server is listening on the port 3000
+2020-07-05T15:00:16.508Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T15:03:04.625Z [Init] info: Server is listening on the port 3000
+2020-07-05T15:03:11.218Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T15:03:13.049Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-05T15:03:33.095Z [Init] info: Server is listening on the port 3000
