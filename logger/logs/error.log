@@ -8,3 +8,8 @@
 2020-07-05T13:35:10.137Z [api] error: Can't login User Error: Illegal arguments: string, undefined
 2020-07-05T13:36:59.466Z [api] error: Can't login User Error: Illegal arguments: string, undefined
 2020-07-05T14:39:12.873Z [api] error: Can't login User ReferenceError: role is not defined
+2020-07-06T16:40:41.934Z [api] error: Can't create Player TypeError: Class constructor Transaction cannot be invoked without 'new'
+2020-07-06T16:41:28.048Z [api] error: Can't create Player TypeError: sequelize.transaction is not a function
+2020-07-06T17:00:01.631Z [api] error: Can't create Player TypeError: sequelize.transaction is not a function
+2020-07-06T17:01:28.310Z [api] error: Can't create Player TypeError: sequelize.transaction is not a function
+2020-07-06T17:32:14.683Z [api] error: Can't create Player SequelizeDatabaseError: invalid input syntax for type uuid: "4555"
