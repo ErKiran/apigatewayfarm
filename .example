@@ -1,0 +1,7 @@
+PORT=3000
+JWT_SECRET=Secret123
+DB_USER=postgres
+DB_PASSWORD=password
+DB_NAME=name
+DB_HOST=host
+DB_DIALECT=postgres

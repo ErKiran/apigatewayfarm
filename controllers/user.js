@@ -4,13 +4,19 @@ const jwt = require('jsonwebtoken')
 const {User} = require('../models');
 const {Response} = require('../utils/response');
 const {JWT_SECRET} = process.env;
-const logger = require('../logger')
+const logger = require('../logger');
+const response = require('../utils/response');
 
 async function CreateUser(req,res){
     try{
+        const {email,password} = req.body;
         const data = {
-            user_name: req.body.userName,
-            password: req.body.password
+            email,
+            password
+        }
+        const isUserExists = await User.findOne({where:{email}})
+        if (isUserExists){
+            return response(200,"Success","Email Alreay Taken",null)
         }
         const newUser = await new User(data)
         await newUser.save()
@@ -28,11 +34,11 @@ async function CreateUser(req,res){
 
 async function LoginUser(req,res){
     try{
-        const {userName,password} = req.body;
-        if (!userName || !password){
-            return Response(res,200,`username and password is required`,null)
+        const {email,password} = req.body;
+        if (!email || !password){
+            return Response(res,200,`email and password is required`,null)
         }
-        const user = await User.findOne({where:{user_name:userName}});
+        const user = await User.findOne({where:{email}});
         if (!user){
            return Response(res,200,"Success",null)
         }
@@ -42,7 +48,7 @@ async function LoginUser(req,res){
             return Response(res,401,"UnAuthorized",null)
         }
 
-        const payload = {id: user.id, role: user.role,userName: user.user_name};
+        const payload = {id: user.id, role: user.role,email: user.email};
         const token = await jwt.sign(payload,JWT_SECRET,{expiresIn:3600})
         return Response(res,200,"Success",`Bearer ${token}`)
 
