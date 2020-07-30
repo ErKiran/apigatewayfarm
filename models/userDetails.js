@@ -1,23 +1,31 @@
 module.exports = (sequelize,Sequelize)=>{
-    const player_meta = sequelize.define('player_meta',{
+    const userDetails = sequelize.define('user_details',{
         id:{
             type: Sequelize.UUID,
             defaultValue: Sequelize.UUIDV1,
             primaryKey: true,
             allowNull: false
         },
-        attribute_name: {
+        user_name: {
 			type:Sequelize.STRING,
-			allowNull: true,
+            allowNull: true,
         },
-        attribute_value: {
+        location: {
+			allowNull: true,
 			type:Sequelize.STRING,
-			allowNull: true,
         },
+       avatar:{
+           allowNull: true,
+           type: Sequelize.STRING
+       },
+       dob:{
+           allowNull: true,
+           type: Sequelize.DATE
+       }
     },{
          paranoid: true,
          underscored: true,
          timestamp: true ,
         })
-    return player_meta
+    return userDetails
 }

@@ -7,9 +7,10 @@ module.exports = (sequelize,Sequelize)=>{
             primaryKey: true,
             allowNull: false
         },
-        user_name: {
+        email: {
 			type:Sequelize.STRING,
-			allowNull: false,
+            allowNull: false,
+            unique:true,
         },
         password: {
 			allowNull: false,
