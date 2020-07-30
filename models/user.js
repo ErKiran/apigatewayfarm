@@ -16,6 +16,15 @@ module.exports = (sequelize,Sequelize)=>{
 			allowNull: false,
 			type:Sequelize.STRING,
         },
+        account_verify_code:{
+            allowNull: true,
+            type: Sequelize.STRING
+        },
+        is_active:{
+            allowNull:false,
+            defaultValue: false,
+            type: Sequelize.BOOLEAN
+        },
         role: {
 			type:Sequelize.ENUM('ADMIN', 'USER'),
 			allowNull: false,

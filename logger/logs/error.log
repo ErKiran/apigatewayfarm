@@ -19,3 +19,6 @@
 2020-07-30T19:08:04.976Z [api] error: Can't create User Error: Can't Send Mail to verify Account
 2020-07-30T19:09:28.340Z [api] error: Can't create User Error: Can't Send Mail to verify Account Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
 535 5.7.8  https://support.google.com/mail/?p=BadCredentials 64sm7927439pgb.63 - gsmtp
+2020-07-30T19:32:15.636Z [api] error: Can't create User SequelizeValidationError: string violation: account_verify_code cannot be an array or an object
+2020-07-30T19:32:48.841Z [api] error: Can't create User SequelizeValidationError: string violation: account_verify_code cannot be an array or an object
+2020-07-30T19:33:03.227Z [api] error: Can't create User SequelizeValidationError: string violation: account_verify_code cannot be an array or an object

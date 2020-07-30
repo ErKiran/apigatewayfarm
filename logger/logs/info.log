@@ -516,3 +516,32 @@
 2020-07-30T19:16:36.419Z [Init] info: Server is listening on the port 3000
 2020-07-30T19:16:41.815Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
 2020-07-30T19:18:45.880Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:24:10.891Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:25:05.497Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:25:15.489Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:25:39.297Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T19:26:44.951Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:27:08.705Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:27:12.583Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T19:31:08.314Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:31:42.456Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:32:00.441Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:32:15.625Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T19:32:15.636Z [api] error: Can't create User SequelizeValidationError: string violation: account_verify_code cannot be an array or an object
+2020-07-30T19:32:45.139Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:32:48.832Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T19:32:48.841Z [api] error: Can't create User SequelizeValidationError: string violation: account_verify_code cannot be an array or an object
+2020-07-30T19:32:58.763Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:33:03.219Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T19:33:03.227Z [api] error: Can't create User SequelizeValidationError: string violation: account_verify_code cannot be an array or an object
+2020-07-30T19:33:23.379Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:33:26.777Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T19:33:56.041Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:34:36.180Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:34:52.720Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:35:18.379Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:35:38.185Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:43:04.434Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:44:26.874Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T19:44:47.639Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:44:52.077Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,

@@ -14,15 +14,15 @@ async function initNodemailer(){
     return transporter
 }
 
-async function verifyAccount(email){
+async function verifyAccount(email,code){
     try{
         const transporter = await initNodemailer()
-        let info = await transporter.sendMail({
+       await transporter.sendMail({
             from:`Krishi Kranti <krishi@gmail.com>`,
             to: email,
-            subject:"Verify",
+            subject:"Verify Account",
             text:"Verify Email",
-            html: "<b>Hello world?</b>",
+            html: {path:'./templates/mail.html'},
         })
     }
     catch(err){

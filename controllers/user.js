@@ -19,10 +19,13 @@ async function CreateUser(req,res){
         if (isUserExists){
             return Response(res,200,"Email already taken",null)
         }
+        const generateRandomString = (length=6)=>Math.random().toString(20).substr(2, length)
+        const code = generateRandomString()
+        data.account_verify_code = code
         const newUser = await new User(data)
         await newUser.save()
-        await verifyAccount(email)
-        return res.json(newUser)
+        res.json(newUser)
+        await verifyAccount(email,code)
     }
     catch(err){
         logger.log({
@@ -51,7 +54,7 @@ async function LoginUser(req,res){
         }
 
         const payload = {id: user.id, role: user.role,email: user.email};
-        const token = await jwt.sign(payload,JWT_SECRET,{expiresIn:3600})
+        const token = jwt.sign(payload,JWT_SECRET,{expiresIn:3600})
         return Response(res,200,"Success",`Bearer ${token}`)
 
     }
