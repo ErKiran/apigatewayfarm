@@ -478,3 +478,41 @@
 2020-07-30T18:12:16.669Z [Init] info: Server is listening on the port 3000
 2020-07-30T18:21:01.248Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
 2020-07-30T18:21:26.522Z [API Handler] info: Method: POST, URL: /api/v1/login IP: ::1,
+2020-07-30T18:37:41.297Z [Init] info: Server is listening on the port 3000
+2020-07-30T18:37:45.736Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T18:37:45.743Z [api] error: Can't create User TypeError: response is not a function
+2020-07-30T18:38:27.728Z [Init] info: Server is listening on the port 3000
+2020-07-30T18:38:33.297Z [Init] info: Server is listening on the port 3000
+2020-07-30T18:38:37.066Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T18:38:37.075Z [api] error: Can't create User TypeError: res.status is not a function
+2020-07-30T18:40:01.713Z [Init] info: Server is listening on the port 3000
+2020-07-30T18:40:05.590Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T18:40:11.986Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T18:40:13.021Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T18:40:13.937Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T18:40:14.701Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T18:40:15.510Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T18:40:16.515Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T18:43:59.482Z [Init] info: Server is listening on the port 3000
+2020-07-30T18:56:12.713Z [Init] info: Server is listening on the port 3000
+2020-07-30T18:56:33.586Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T18:58:44.531Z [api] error: Can't create User Error: Can't Send Mail to verify Account
+2020-07-30T19:01:53.849Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:05:36.380Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:05:45.728Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:06:04.326Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:07:31.846Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:07:37.438Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T19:07:59.673Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:08:02.445Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T19:08:04.976Z [api] error: Can't create User Error: Can't Send Mail to verify Account
+2020-07-30T19:08:58.329Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:09:19.832Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:09:24.324Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T19:09:28.340Z [api] error: Can't create User Error: Can't Send Mail to verify Account Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 64sm7927439pgb.63 - gsmtp
+2020-07-30T19:15:54.842Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:16:00.899Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:16:36.419Z [Init] info: Server is listening on the port 3000
+2020-07-30T19:16:41.815Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-30T19:18:45.880Z [Init] info: Server is listening on the port 3000

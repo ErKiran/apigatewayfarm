@@ -1,11 +1,12 @@
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken')
 
+const {verifyAccount} = require('./mail');
 const {User} = require('../models');
 const {Response} = require('../utils/response');
 const {JWT_SECRET} = process.env;
 const logger = require('../logger');
-const response = require('../utils/response');
+
 
 async function CreateUser(req,res){
     try{
@@ -16,10 +17,11 @@ async function CreateUser(req,res){
         }
         const isUserExists = await User.findOne({where:{email}})
         if (isUserExists){
-            return response(200,"Success","Email Alreay Taken",null)
+            return Response(res,200,"Email already taken",null)
         }
         const newUser = await new User(data)
         await newUser.save()
+        await verifyAccount(email)
         return res.json(newUser)
     }
     catch(err){

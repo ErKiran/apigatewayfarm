@@ -13,3 +13,9 @@
 2020-07-06T17:00:01.631Z [api] error: Can't create Player TypeError: sequelize.transaction is not a function
 2020-07-06T17:01:28.310Z [api] error: Can't create Player TypeError: sequelize.transaction is not a function
 2020-07-06T17:32:14.683Z [api] error: Can't create Player SequelizeDatabaseError: invalid input syntax for type uuid: "4555"
+2020-07-30T18:37:45.743Z [api] error: Can't create User TypeError: response is not a function
+2020-07-30T18:38:37.075Z [api] error: Can't create User TypeError: res.status is not a function
+2020-07-30T18:58:44.531Z [api] error: Can't create User Error: Can't Send Mail to verify Account
+2020-07-30T19:08:04.976Z [api] error: Can't create User Error: Can't Send Mail to verify Account
+2020-07-30T19:09:28.340Z [api] error: Can't create User Error: Can't Send Mail to verify Account Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 64sm7927439pgb.63 - gsmtp
