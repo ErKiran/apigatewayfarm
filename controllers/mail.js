@@ -17,7 +17,7 @@ async function initNodemailer() {
   return transporter;
 }
 
-async function compileTemplate(email,code) {
+async function compileTemplate(email, code) {
   try {
     const readFileAsync = promisify(fs.readFile);
     const html = await readFileAsync("./templates/mail.html", {
@@ -25,8 +25,8 @@ async function compileTemplate(email,code) {
     });
     const template = handlebars.compile(html);
     const replacements = {
-      username: email.split('@')[0],
-      code
+      username: email.split("@")[0],
+      code,
     };
     return template(replacements);
   } catch (err) {
@@ -37,7 +37,7 @@ async function compileTemplate(email,code) {
 async function verifyAccount(email, code) {
   try {
     const transporter = await initNodemailer();
-    const html = await compileTemplate(email,code);
+    const html = await compileTemplate(email, code);
     await transporter.sendMail({
       from: `Krishi Kranti <krishi@gmail.com>`,
       to: email,
