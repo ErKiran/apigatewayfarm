@@ -21,7 +21,10 @@ async function CreateUser(req, res) {
     const generateRandomString = (length = 6) =>
       Math.random().toString(20).substr(2, length);
     const code = generateRandomString();
-    data.account_verify_code = code;
+    let today = new Date();
+    today.setHours(today.getHours() + 1);
+    data.code = code;
+    data.expires_in = today;
     const newUser = await new User(data);
     await newUser.save();
     res.json(newUser);
@@ -33,6 +36,39 @@ async function CreateUser(req, res) {
       label: "api",
     });
     throw new Error(`Can't create User ${err}`);
+  }
+}
+
+async function ActivateAccount(req, res) {
+  try {
+    const { code } = req.body;
+    const { email } = req.user;
+
+    if (!code) {
+      return Response(res, 401, "Code is Required", null);
+    }
+
+    const user = await User.findOne({ where: { email } });
+    if (!user) {
+      return Response(res, 401, "User Not found", null);
+    }
+    if (user.expires_in <= new Date()) {
+      return Response(res, 401, "Time Expires", null);
+    }
+
+    if (user.code === code) {
+      const update = await User.update(
+        { is_active: true },
+        { where: { email } }
+      );
+      if (update[0] === 1) {
+        return Response(res, 200, "Success", { success: true });
+      }
+    }
+
+    return Response(res, 200, "Code Mismatch", null);
+  } catch (err) {
+    throw new Error(`Can't activate Account ${err}`);
   }
 }
 
@@ -68,4 +104,5 @@ async function LoginUser(req, res) {
 module.exports = {
   CreateUser,
   LoginUser,
+  ActivateAccount,
 };

@@ -18,9 +18,13 @@ module.exports = (sequelize, Sequelize) => {
         allowNull: false,
         type: Sequelize.STRING,
       },
-      account_verify_code: {
+      code: {
         allowNull: true,
         type: Sequelize.STRING,
+      },
+      expires_in:{
+        allowNull: true,
+        type: Sequelize.DATE
       },
       is_active: {
         allowNull: false,
