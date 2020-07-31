@@ -22,3 +22,7 @@
 2020-07-30T19:32:15.636Z [api] error: Can't create User SequelizeValidationError: string violation: account_verify_code cannot be an array or an object
 2020-07-30T19:32:48.841Z [api] error: Can't create User SequelizeValidationError: string violation: account_verify_code cannot be an array or an object
 2020-07-30T19:33:03.227Z [api] error: Can't create User SequelizeValidationError: string violation: account_verify_code cannot be an array or an object
+2020-07-31T04:12:23.606Z [api] error: Can't create User Error: Can't Send Mail to verify Account Error: Can't compile Template TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received { encoding: 'utf-8' }
+2020-07-31T04:18:09.042Z [api] error: Can't create User Error: Can't Send Mail to verify Account Error: Can't compile Template Error: ENOENT: no such file or directory, open '/home/dell/Documents/farm/OnlineAuctionSystem/controllers./templates/mail.html'
+2020-07-31T04:19:51.341Z [api] error: Can't create User Error: Can't Send Mail to verify Account Error: Can't compile Template Error: ENOENT: no such file or directory, open '/home/dell/Documents/farm/OnlineAuctionSystem/controllers/templates/mail.html'
+2020-07-31T04:29:05.767Z [api] error: Can't create User SequelizeDatabaseError: relation "users" does not exist

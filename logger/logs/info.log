@@ -545,3 +545,44 @@
 2020-07-30T19:44:26.874Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
 2020-07-30T19:44:47.639Z [Init] info: Server is listening on the port 3000
 2020-07-30T19:44:52.077Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-31T03:18:31.739Z [Init] info: Server is listening on the port 3000
+2020-07-31T03:36:00.089Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:10:40.943Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:11:29.426Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-31T04:12:06.995Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:12:23.470Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-31T04:12:23.606Z [api] error: Can't create User Error: Can't Send Mail to verify Account Error: Can't compile Template TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received { encoding: 'utf-8' }
+2020-07-31T04:15:36.881Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:16:41.067Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:18:03.812Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:18:08.908Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-31T04:18:09.042Z [api] error: Can't create User Error: Can't Send Mail to verify Account Error: Can't compile Template Error: ENOENT: no such file or directory, open '/home/dell/Documents/farm/OnlineAuctionSystem/controllers./templates/mail.html'
+2020-07-31T04:19:01.582Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:19:47.080Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:19:51.193Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-31T04:19:51.341Z [api] error: Can't create User Error: Can't Send Mail to verify Account Error: Can't compile Template Error: ENOENT: no such file or directory, open '/home/dell/Documents/farm/OnlineAuctionSystem/controllers/templates/mail.html'
+2020-07-31T04:20:20.136Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:20:36.292Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-31T04:24:28.707Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:25:33.384Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:25:54.040Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:25:56.689Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:29:05.751Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-31T04:29:05.767Z [api] error: Can't create User SequelizeDatabaseError: relation "users" does not exist
+2020-07-31T04:29:25.378Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:29:30.543Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-31T04:40:05.593Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:40:25.264Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:40:29.095Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-31T04:48:50.336Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:49:09.233Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:49:17.495Z [Init] info: Server is listening on the port 3000
+2020-07-31T04:49:45.868Z [Init] info: Server is listening on the port 3000
+2020-07-31T05:26:26.392Z [Init] info: Server is listening on the port 3000
+2020-07-31T05:26:59.261Z [Init] info: Server is listening on the port 3000
+2020-07-31T05:28:56.043Z [Init] info: Server is listening on the port 3000
+2020-07-31T05:29:07.230Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-31T05:34:07.577Z [Init] info: Server is listening on the port 3000
+2020-07-31T05:34:13.695Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
+2020-07-31T05:38:19.176Z [Init] info: Server is listening on the port 3000
+2020-07-31T05:38:31.709Z [API Handler] info: Method: POST, URL: /api/v1/user IP: ::1,
